@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Registration Form
+    </title>
+</head>
+
+<body>
+    <form action="somestuff">
+        <div class="container">
+            <h1>Registration</h1>
+            <p>Please register for access to the forum</p>
+
+            <label for="fName"><b>First Name</b></label>
+            <input type="text" placeholder="Type your First Name...." name="fName" id="fName" required>
+
+            <label for="lName"><b>Last Name</b></label>
+            <input type="text" placeholder="Type your Last Name...." name="lName" id="lName" required>
+
+            <label for="Occupation"><b>Occupation</b></label>
+            <input type="text" placeholder="Enter your Occupational status...." name="occupation" id="occupation"
+                required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email-Address" name="email" id="email" required>
+
+            <label for="Password"><b>Password</b></label>
+            <input type="password" placeholder="Enter a Password" name="password" id="password" required>
+
+            <label for="RepeatPw"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Please repeat your password" name="RepeatPw" id="RepeatPw" required>
+
+            <div class="country-custom" ;>
+                <label for="country"> <b>Select your country</b></label>
+                <select name="country" id="country">
+                    <option value="USA">United States</option>
+                    <option value="China">China</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="North Korea">North Korea</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="India">India</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                </select>
+            </div>
+                <button type="submit" class="registrationbtn">Register</button>
+            
+        </div>
+</body>
+
+</html>
